@@ -4,4 +4,4 @@
 vim.g.maplocalleader = " "
 vim.opt.colorcolumn = "100"
 vim.opt.clipboard = "unnamedplus"
-vim.opt.smartindent = false
+vim.g.lazyvim_blink_main = true
