@@ -1,0 +1,50 @@
+return {
+  -- "nvim-java/nvim-java",
+  -- config = false,
+  -- dependencies = {
+  --   {
+  --     "neovim/nvim-lspconfig",
+  --     opts = {
+  --       servers = {
+  --         jdtls = {
+  --           settings = {
+  --             java = {
+  --               configuration = {
+  --                 runtimes = {
+  --                   {
+  --                     name = "JavaSE-21",
+  --                     path = "C:\\Program Files\\Eclipse Adoptium\\jdk-21.0.5.11-hotspot",
+  --                   },
+  --                 },
+  --               },
+  --             },
+  --           },
+  --         },
+  --       },
+  --       setup = {
+  --         jdtls = function()
+  --           require("java").setup({
+  --             root_markers = {
+  --               "settings.gradle",
+  --               "settings.gradle.kts",
+  --               "pom.xml",
+  --               "build.gradle",
+  --               "mvnw",
+  --               "gradlew",
+  --               "build.gradle",
+  --               "build.gradle.kts",
+  --             },
+  --             jdtls = {
+  --               version = "v1.43.0",
+  --             },
+  --             jdk = {
+  --               -- install jdk using mason.nvim
+  --               auto_install = false,
+  --             },
+  --           })
+  --         end,
+  --       },
+  --     },
+  --   },
+  -- },
+}

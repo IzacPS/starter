@@ -4,4 +4,5 @@
 vim.g.maplocalleader = " "
 vim.opt.colorcolumn = "100"
 vim.opt.clipboard = "unnamedplus"
-vim.g.lazyvim_blink_main = true
+vim.g.lazyvim_blink_main = false
+--vim.g.lazyvim_picker = "snacks"
